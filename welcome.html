@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,5 +8,44 @@
 </head>
 <body>
     <h1>Welcome user</h1>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/style1.css">
+</head>
+<body>
+    <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAmim">
+            
+        </div>
+    </div>
+    <div class="container">
+   
+        <section>
+            <div class="textBox">
+                <h1><span>Your</span> Password is now secure (CNS)</h1>
+                
+
+            </div>
+        </section>
+    </div>
+
+    <script >
+        const bgAnimation = document.getElementById('bgAnimation');
+
+const numberOfColorBoxes = 400;
+
+for (let i = 0; i < numberOfColorBoxes; i++) {
+    const colorBox = document.createElement('div');
+    colorBox.classList.add('colorBox');
+    bgAnimation.append(colorBox)
+}
+    </script>
 </body>
 </html>
